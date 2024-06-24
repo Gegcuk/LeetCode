@@ -1,6 +1,5 @@
-package LongestCommonPrefix;
+package Easy.LongestCommonPrefix.LongestCommonPrefix;
 
-import javax.swing.*;
 import java.util.HashMap;
 import java.util.Map;
 

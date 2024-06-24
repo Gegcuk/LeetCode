@@ -1,4 +1,4 @@
-package P2827NumberOfBeautifulIntegers;
+package Hard.P2827NumberOfBeautifulIntegers;
 import java.util.Arrays;
 
 public class Solution {

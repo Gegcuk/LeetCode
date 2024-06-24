@@ -1,4 +1,4 @@
-package RemoveElement27;
+package Easy.RemoveElement27;
 
 import java.util.Arrays;
 
