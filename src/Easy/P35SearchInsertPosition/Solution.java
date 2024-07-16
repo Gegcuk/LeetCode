@@ -2,14 +2,15 @@ package Easy.P35SearchInsertPosition;
 
 class Solution {
     public int searchInsert(int[] nums, int target) {
-        int position = 0;
-        if(nums[0] == target) return position;
-        for(int i = 1; i < nums.length; i++){
-            if(nums[i] == target) return i;
-            else if(nums[i] > target && nums[i-1] < target) position = i;
+        int leftPointer = 0;
+        int rightPointer = nums.length-1;
+        while(leftPointer <= rightPointer){
+            int midPointer = (rightPointer + leftPointer)/2;
+            if(nums[midPointer] == target) return midPointer;
+            else if(nums[midPointer] > target) rightPointer = midPointer - 1;
+            else leftPointer = midPointer + 1;
         }
-        if(nums[nums.length-1] < target) position=nums.length;
-        return position;
+        return leftPointer;
     }
 
 
