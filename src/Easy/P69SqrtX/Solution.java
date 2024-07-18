@@ -36,9 +36,5 @@ public class Solution {
         int x4 = 1;
         int result4 = solution.mySqrt(x4);
         System.out.println("Square root of " + x4 + " is: " + result4);
-
-        int x5 = 0;
-        int result5 = solution.mySqrt(x5);
-        System.out.println("Square root of " + x5 + " is: " + result5);
     }
 }
