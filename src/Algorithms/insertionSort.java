@@ -8,13 +8,11 @@ public class insertionSort {
         for(int currentIndex = 1; currentIndex < array.length; currentIndex++){
             int currentElement = array[currentIndex];
             int previousIndex = currentIndex - 1;
-
             while(previousIndex >= 0 && array[previousIndex] > currentElement){
-                array[previousIndex+1] = array[previousIndex];
+                array[previousIndex + 1] = array[previousIndex];
                 previousIndex--;
             }
             array[previousIndex + 1] = currentElement;
-            System.out.println(Arrays.toString(array));
         }
     }
 
