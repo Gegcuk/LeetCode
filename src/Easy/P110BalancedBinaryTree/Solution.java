@@ -4,20 +4,13 @@ class TreeNode{
     int val;
     TreeNode left;
     TreeNode right;
-    TreeNode(){}
     TreeNode(int val){this.val = val;}
-    TreeNode(int val, TreeNode left, TreeNode right){
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
 }
 
 class Solution {
     public boolean isBalanced(TreeNode root) {
         if(root == null) return true;
-        if(branchDepth(root) == -1) return false;
-        return true;
+        return branchDepth(root) != -1;
     }
 
     private int branchDepth(TreeNode root) {
