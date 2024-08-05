@@ -26,7 +26,7 @@ public class Solution {
     }
 
 
-    public int lengthOfLongestSubstringFirst(String s) {
+    public int lengthOfLongestSubstringFirstTry(String s) {
         if(s.isEmpty()) return 0;
         else if (s.length() == 1) return 1;
         int lengthOfLongestSubstring = 0;
