@@ -1,6 +1,7 @@
 package tryLambdas;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class Excercises {
@@ -14,6 +15,8 @@ public class Excercises {
                 new Person("Aleksandr", "Pushkin", 38)
         );
 
+        people.sort(Comparator.comparing(Person::getLastName));
 
+        System.out.println(people);
     }
 }
