@@ -16,7 +16,6 @@ public class Solution {
         Arrays.sort(nums);
 
         return IntStream.range(0, nums.length - 2)
-                // Skip duplicates for the first element.
                 .filter(i -> i == 0 || nums[i] != nums[i - 1])
                 .boxed()
                 .flatMap(i -> {
@@ -25,7 +24,6 @@ public class Solution {
                         int sum = nums[i] + nums[lo] + nums[hi];
                         if (sum == 0) {
                             localResult.add(Arrays.asList(nums[i], nums[lo], nums[hi]));
-                            // Skip duplicate values for lo and hi.
                             while (lo < hi && nums[lo] == nums[lo + 1]) lo++;
                             while (lo < hi && nums[hi] == nums[hi - 1]) hi--;
                             lo++;
@@ -37,8 +35,7 @@ public class Solution {
                         }
                     }
                     return localResult.stream();
-                })
-                .collect(Collectors.toList());
+                }).toList();
     }
 }
 
