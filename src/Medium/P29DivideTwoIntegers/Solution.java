@@ -1,7 +1,5 @@
 package Medium.P29DivideTwoIntegers;
 
-import java.util.stream.IntStream;
-
 class Solution {
     public int divide(int dividend, int divisor) {
         long quotientAccumulator = 0;
