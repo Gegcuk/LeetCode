@@ -1,14 +1,12 @@
 package Medium.P153Sum;
 
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Solution {
 
     public static void main(String[] args) {
         List<List<Integer>> allRes = threeSum(new int[]{-1,0,1,2,-1,-4});
-
     }
 
     public static List<List<Integer>> threeSum(int[] nums) {
