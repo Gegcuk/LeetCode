@@ -3,11 +3,12 @@ package Easy.P2220MinimumBitFlipsToConvertNumber;
 public class Solution {
 
     public int minBitFlips(int start, int goal) {
-        int result = start ^ goal;
         int counter = 0;
-        while (result != 0) {
-            counter += result & 1;
-            result >>= 1;
+        while (start != 0 || goal != 0) {
+            System.out.println(start + " " + goal);
+            if (start >> 1 != goal>>1) counter++;
+            start >>= 1;
+            goal >>=1;
         }
         return counter;
     }
