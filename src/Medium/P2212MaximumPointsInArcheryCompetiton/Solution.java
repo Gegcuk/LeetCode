@@ -5,11 +5,13 @@ import java.util.Arrays;
 class Solution {
     int bobPoint = 0;
     int[] maxbob = new int[12];
+
     public int[] maximumBobPoints(int numArrows, int[] aliceArrows) {
         int[] bob = new int[12];
         calculate(aliceArrows, bob, 11, numArrows, 0);
         return maxbob;
     }
+
     public void calculate(int[] alice, int[] bob, int index, int remainArr, int point) {
         if(index < 0 || remainArr <= 0) {
             if(remainArr > 0)
