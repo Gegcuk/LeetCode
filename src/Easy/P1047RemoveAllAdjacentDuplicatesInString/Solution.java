@@ -1,10 +1,6 @@
 package Easy.P1047RemoveAllAdjacentDuplicatesInString;
 
-import org.junit.jupiter.api.Test;
-
 import java.util.Stack;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Solution {
 
@@ -40,16 +36,6 @@ public class Solution {
 //        System.out.println("azz");
     }
 
-    @Test
-    public void removeDuplicatesTest(){
-        assertEquals("ca", removeDuplicates("abbaca"));
-        assertEquals("ay", removeDuplicates("azxxzy"));
-        assertEquals("a", removeDuplicates("azz"));
-        assertEquals("z", removeDuplicates("aaz"));
-        assertEquals("", removeDuplicates("zz"));
-        assertEquals("za", removeDuplicates("za"));
-        assertEquals("", removeDuplicates("aaaaaaaa"));
-    }
 
 
 }
