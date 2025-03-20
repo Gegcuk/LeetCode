@@ -1,4 +1,4 @@
-package Medium.P11ContainerWithMostWater;
+package Medium.tasks11_20.P11ContainerWithMostWater;
 
 class Solution {
     public int maxArea(int[] height) {

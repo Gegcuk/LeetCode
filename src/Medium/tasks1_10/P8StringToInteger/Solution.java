@@ -1,4 +1,4 @@
-package Medium.P8StringToInteger;
+package Medium.tasks1_10.P8StringToInteger;
 
 class Solution {
     public int myAtoi(String s) {

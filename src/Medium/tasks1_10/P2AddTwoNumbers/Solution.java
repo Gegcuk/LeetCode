@@ -1,4 +1,4 @@
-package Medium.P2AddTwoNumbers;
+package Medium.tasks1_10.P2AddTwoNumbers;
 
 
 class ListNode {

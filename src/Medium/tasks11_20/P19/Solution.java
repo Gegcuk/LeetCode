@@ -1,4 +1,4 @@
-package Medium.P19;
+package Medium.tasks11_20.P19;
 
 public class Solution {
 

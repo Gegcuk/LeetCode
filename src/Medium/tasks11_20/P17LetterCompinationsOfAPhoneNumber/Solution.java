@@ -1,4 +1,4 @@
-package Medium.P17LetterCompinationsOfAPhoneNumber;
+package Medium.tasks11_20.P17LetterCompinationsOfAPhoneNumber;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Medium.P5LongestPalindromicSubstring;
+package Medium.tasks1_10.P5LongestPalindromicSubstring;
 
 public class Solution {
     public String longestPalindromeBruteForce(String s) {

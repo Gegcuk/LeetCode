@@ -1,4 +1,4 @@
-package Medium.P12IntegerToRoman;
+package Medium.tasks11_20.P12IntegerToRoman;
 
 import java.util.HashMap;
 import java.util.Map;

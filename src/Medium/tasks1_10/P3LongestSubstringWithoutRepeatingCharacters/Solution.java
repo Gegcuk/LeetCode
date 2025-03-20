@@ -1,4 +1,4 @@
-package Medium.P3LongestSubstringWithoutRepeatingCharacters;
+package Medium.tasks1_10.P3LongestSubstringWithoutRepeatingCharacters;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package Medium.P6ZigzagConversion;
+package Medium.tasks1_10.P6ZigzagConversion;
 
 import java.util.ArrayList;
 import java.util.List;

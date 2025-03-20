@@ -1,4 +1,4 @@
-package Medium.P7ReverseInteger;
+package Medium.tasks1_10.P7ReverseInteger;
 
 class Solution {
     public int reverse(int x) {
