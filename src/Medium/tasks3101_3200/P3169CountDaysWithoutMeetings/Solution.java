@@ -9,7 +9,7 @@ public class Solution {
         if(meetings.length == 1) {
             return days - (meetings[0][1] - meetings[0][0]) - 1;
         }
-        Arrays.sort(meetings, Comparator.comparing(meeting->meeting[0]));
+        Arrays.sort(meetings, (a, b) -> a[0] - b[0]);
         int counter = 0;
 
         int start = meetings[0][0];
