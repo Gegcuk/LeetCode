@@ -1,9 +1,5 @@
 package Easy.tasks2901_3000.P2932MaximumStrongPairXOR1;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-
 public class Solution {
     public int maximumStrongPairXor(int[] nums) {
         int result = 0;
