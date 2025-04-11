@@ -1,4 +1,4 @@
-package Easy.P1684CountTheNumberOfConsistentStrings;
+package Easy.tasks1601_1700.P1684CountTheNumberOfConsistentStrings;
 
 import java.util.Arrays;
 

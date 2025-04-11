@@ -1,4 +1,4 @@
-package Easy.P3226NumberOfBitChangesToMakeTwoIntegersEqual;
+package Easy.tasks3201_3300.P3226NumberOfBitChangesToMakeTwoIntegersEqual;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package Easy.P2220MinimumBitFlipsToConvertNumber;
+package Easy.tasks2201_2300.P2220MinimumBitFlipsToConvertNumber;
 
 public class Solution {
 

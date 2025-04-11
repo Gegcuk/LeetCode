@@ -1,4 +1,4 @@
-package Medium.P2225FindPlayersWithZeroAndOneLosses;
+package Medium.tasks2201_2300.P2225FindPlayersWithZeroAndOneLosses;
 import java.util.*;
 
 class Solution {

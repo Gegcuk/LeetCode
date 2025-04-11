@@ -1,4 +1,4 @@
-package Easy.P2379MinimumRecolorsOfGetKConsecutiveBlackBlocks;
+package Easy.tasks2301_2400.P2379MinimumRecolorsOfGetKConsecutiveBlackBlocks;
 
 public class Solution {
 

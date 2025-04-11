@@ -1,4 +1,4 @@
-package Easy.P2269FindTheKBeautyOfANumber;
+package Easy.tasks2201_2300.P2269FindTheKBeautyOfANumber;
 
 public class Solution {
 

@@ -1,4 +1,4 @@
-package Easy.P1710MaximumUnitsOnATruck;
+package Easy.tasks1701_1800.P1710MaximumUnitsOnATruck;
 
 import java.util.*;
 

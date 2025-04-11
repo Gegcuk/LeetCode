@@ -1,4 +1,4 @@
-package Easy.P2347BestPoketHand;
+package Easy.tasks2301_2400.P2347BestPoketHand;
 
 //You are given an integer array ranks and a character array suits. You have 5
 // cards where the ith card has a rank of ranks[i] and a suit of suits[i].

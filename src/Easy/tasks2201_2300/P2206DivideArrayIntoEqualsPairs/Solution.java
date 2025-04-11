@@ -1,4 +1,4 @@
-package Easy.P2206DivideArrayIntoEqualsPairs;
+package Easy.tasks2201_2300.P2206DivideArrayIntoEqualsPairs;
 
 class Solution {
     public boolean divideArray(int[] nums) {

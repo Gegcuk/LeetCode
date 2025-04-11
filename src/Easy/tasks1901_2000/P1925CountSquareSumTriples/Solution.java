@@ -1,4 +1,4 @@
-package Easy.P1925CountSquareSumTriples;
+package Easy.tasks1901_2000.P1925CountSquareSumTriples;
 
 import java.util.Arrays;
 

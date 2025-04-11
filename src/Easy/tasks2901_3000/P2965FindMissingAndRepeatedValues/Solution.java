@@ -1,4 +1,4 @@
-package Easy.P2965FindMissingAndRepeatedValues;
+package Easy.tasks2901_3000.P2965FindMissingAndRepeatedValues;
 
 import java.util.Arrays;
 

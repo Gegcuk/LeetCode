@@ -1,4 +1,4 @@
-package Easy.P2357MakeArrayZerobySubtractingEqualAmounts;
+package Easy.tasks2301_2400.P2357MakeArrayZerobySubtractingEqualAmounts;
 
 import java.util.Arrays;
 
