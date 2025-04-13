@@ -1,4 +1,4 @@
-package Medium.P153Sum;
+package Medium.tasks101_200.P153Sum;
 
 import java.util.*;
 import java.util.stream.IntStream;

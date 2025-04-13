@@ -1,4 +1,4 @@
-package Medium.P116PopulatingNextRightPointersinEachNode;
+package Medium.tasks101_200.P116PopulatingNextRightPointersinEachNode;
 
 
 import java.util.LinkedList;

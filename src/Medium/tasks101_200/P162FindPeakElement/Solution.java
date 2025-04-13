@@ -1,4 +1,4 @@
-package Medium.P162FindPeakElement;
+package Medium.tasks101_200.P162FindPeakElement;
 
 class Solution {
     public int findPeakElement(int[] nums) {

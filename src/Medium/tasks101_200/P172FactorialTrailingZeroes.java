@@ -1,4 +1,4 @@
-package Medium;
+package Medium.tasks101_200;
 
 public class P172FactorialTrailingZeroes {
     public int trailingZeroes(int n) {

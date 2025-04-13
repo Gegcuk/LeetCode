@@ -1,4 +1,4 @@
-package Medium.P184Sum;
+package Medium.tasks101_200.P184Sum;
 
 import java.util.*;
 
